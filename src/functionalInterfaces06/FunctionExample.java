@@ -1,6 +1,5 @@
 package functionalInterfaces06;
 
-import java.util.function.BiPredicate;
 import java.util.function.Function;
 
 public class FunctionExample {
