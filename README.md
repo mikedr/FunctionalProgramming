@@ -30,15 +30,15 @@ There are three parts to a stream pipeline:
 In Java, the Stream interface is the `java.util.stream` package. There are a few ways to create a finite stream:
 
 1. `Stream<String> empty = Stream.empty();` it creates an empty stream.
-2. `Stream\<Integer\> singleElement = Stream.of(1);` it creates a stream with a single element.
-3. `Stream\<Integer\> fromArray = Stream.of(1,2,3);` it creates a stream from an array.
+2. `Stream<Integer> singleElement = Stream.of(1);` it creates a stream with a single element.
+3. `Stream<Integer> fromArray = Stream.of(1,2,3);` it creates a stream from an array.
 
 Java also provides a convenient way to convert from a list to a stream:
 
-4. `List\<String\> list = Arrays.asList("a","b","c");`
-5. `Stream\<String\> fromList = list.stream();`
+4. `List<String> list = Arrays.asList("a","b","c");`
+5. `Stream<String> fromList = list.stream();`
 
 We can't create an infinite list, though, which makes streams more powerful:
 
-6. `Stream\<Double\> randoms = Stream.generate(Math::randonm);` it creates an infinite stream of random numbers.
-7. `Stream\<Integer\> oddNumbers = Stream.iterate(1,n -> n+2);` it generates odd numbers as long as you need them.
+6. `Stream<Double> randoms = Stream.generate(Math::randonm);` it creates an infinite stream of random numbers.
+7. `Stream<Integer> oddNumbers = Stream.iterate(1,n -> n+2);` it generates odd numbers as long as you need them.
