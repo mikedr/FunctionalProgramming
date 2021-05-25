@@ -29,7 +29,7 @@ There are three parts to a stream pipeline:
 ### Creating Stream Sources
 In Java, the Stream interface is the `java.util.stream` package. There are a few ways to create a finite stream:
 
-1. `Stream\<String\> empty = Stream.empty();` it creates an empty stream.
+1. `Stream<String> empty = Stream.empty();` it creates an empty stream.
 2. `Stream\<Integer\> singleElement = Stream.of(1);` it creates a stream with a single element.
 3. `Stream\<Integer\> fromArray = Stream.of(1,2,3);` it creates a stream from an array.
 
