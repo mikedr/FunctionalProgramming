@@ -10,5 +10,5 @@ The functional interfaces below were introduced in the `java.util.function` pack
 | Functional interface	| #Parameters	| Return Type	| Single Abstract Method	| Example code	|
 | :----: | :----: | :----: | :----: | :----: |
 | Supplier\<T\>	| 0	| T	| get	| [supplier code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces01)	|
-| Consumer\<T\>	| 1 (T)	| void	| accept	| [supplier code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces02)	|
+| Consumer\<T\>	| 1 (T)	| void	| accept	| [consumer code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces02)	|
 |	|	|	|	|
