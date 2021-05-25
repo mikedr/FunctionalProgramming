@@ -42,3 +42,10 @@ We can't create an infinite list, though, which makes streams more powerful:
 
 6. `Stream<Double> randoms = Stream.generate(Math::randonm);` it creates an infinite stream of random numbers.
 7. `Stream<Integer> oddNumbers = Stream.iterate(1,n -> n+2);` it generates odd numbers as long as you need them.
+
+### Using Common Terminal Operations
+It's possible to perform a terminal operation without any intermediate operations but not the other way around.
+
+| Method	| What happends for infinite streams	| Return value	| Reduction	| Example code	|
+| :----: | :----: | :----: | :----: | :----: |
+| count()	| Does not terminate	| long	| Yes	| [supplier code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/streams.terminalOperations01)	|
