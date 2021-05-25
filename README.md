@@ -13,3 +13,4 @@ The functional interfaces below were introduced in the `java.util.function` pack
 | Consumer\<T\>	| 1 (T)	| void	| accept	| [consumer code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces02)	|
 | BiConsumer\<T,U\>	| 2 (T,U)	| void	| accept	| [biConsumer code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces03)	|
 | Predicate\<T\>	| 1 (T)	| boolean	| test	| [predicate code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces04)	|
+| BiPredicate\<T,U\>	| 2 (T,U)	| boolean	| test	| [biPredicate code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces05)	|

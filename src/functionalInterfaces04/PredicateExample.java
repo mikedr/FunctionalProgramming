@@ -1,8 +1,5 @@
 package functionalInterfaces04;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.function.BiConsumer;
 import java.util.function.Predicate;
 
 public class PredicateExample {
