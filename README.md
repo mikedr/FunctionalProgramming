@@ -17,3 +17,4 @@ The functional interfaces below were introduced in the `java.util.function` pack
 | Function\<T,R\>	| 1 (T)	| R	| apply	| [function code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces06)	|
 | BiFunction\<T,U,R\>	| 2 (T,U)	| R	| apply	| [biFunction code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces07)	|
 | UnaryOperator\<T\>	| 1 (T)	| T	| apply	| [unary operator code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces08)	|
+| BinaryOperator\<T\>	| 2 (T,T)	| T	| apply	| [binary operator code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces09)	|
