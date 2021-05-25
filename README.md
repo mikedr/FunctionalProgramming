@@ -48,4 +48,4 @@ It's possible to perform a terminal operation without any intermediate operation
 
 | Method	| What happends for infinite streams	| Return value	| Reduction	| Example code	|
 | :----: | :----: | :----: | :----: | :----: |
-| count()	| Does not terminate	| long	| Yes	| [count code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/streams.terminalOperations01)	|
+| count()	| Does not terminate	| long	| Yes	| [count code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/streams/terminalOperations01)	|
