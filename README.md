@@ -11,4 +11,5 @@ The functional interfaces below were introduced in the `java.util.function` pack
 | :----: | :----: | :----: | :----: | :----: |
 | Supplier\<T\>	| 0	| T	| get	| [supplier code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces01)	|
 | Consumer\<T\>	| 1 (T)	| void	| accept	| [consumer code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces02)	|
+| BiConsumer\<T,U\>	| 2 (T,U)	| void	| accept	| [consumer code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces03)	|
 |	|	|	|	|
