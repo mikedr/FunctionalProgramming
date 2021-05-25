@@ -18,3 +18,10 @@ The functional interfaces below were introduced in the `java.util.function` pack
 | BiFunction\<T,U,R\>	| 2 (T,U)	| R	| apply	| [biFunction code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces07)	|
 | UnaryOperator\<T\>	| 1 (T)	| T	| apply	| [unary operator code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces08)	|
 | BinaryOperator\<T\>	| 2 (T,T)	| T	| apply	| [binary operator code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces09)	|
+
+## Streams
+A *stream* in Java is a sequence of data. A *stream pipeline* is the operations that run on a stream to produce a result. We can think of a stream pipeline as an assembly line in a factory.
+There are three parts to a stream pipeline:
+* *Source:* Where the stream comes from.
+* *Intermediate operations:* Transforms the stream into another one. There can be as few or as a many intermediate  operations as you'd like.
+* *Terminal operation:* Actually produces a result.
