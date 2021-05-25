@@ -14,3 +14,4 @@ The functional interfaces below were introduced in the `java.util.function` pack
 | BiConsumer\<T,U\>	| 2 (T,U)	| void	| accept	| [biConsumer code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces03)	|
 | Predicate\<T\>	| 1 (T)	| boolean	| test	| [predicate code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces04)	|
 | BiPredicate\<T,U\>	| 2 (T,U)	| boolean	| test	| [biPredicate code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces05)	|
+| Function\<T,R\>	| 1 (T)	| R	| apply	| [function code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces06)	|
