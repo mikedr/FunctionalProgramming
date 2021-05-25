@@ -15,3 +15,4 @@ The functional interfaces below were introduced in the `java.util.function` pack
 | Predicate\<T\>	| 1 (T)	| boolean	| test	| [predicate code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces04)	|
 | BiPredicate\<T,U\>	| 2 (T,U)	| boolean	| test	| [biPredicate code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces05)	|
 | Function\<T,R\>	| 1 (T)	| R	| apply	| [function code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces06)	|
+| BiFunction\<T,U,R\>	| 2 (T,U)	| R	| apply	| [biFunction code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces07)	|
