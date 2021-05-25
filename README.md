@@ -9,5 +9,5 @@ The [example code](https://github.com/mikedr/FunctionalProgramming/tree/main/src
 The functional interfaces below were introduced in the `java.util.function` package with Java 8.
 | Functional interface	| #Parameters	| Return Type	| Single Abstract Method	| Example code	|
 | :----: | :----: | :----: | :----: | :----: |
-| Supplier\<T\>	| 0	| T	| get	| [example code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces01)	|
+| Supplier\<T\>	| 0	| T	| get	| [supplier code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/functionalInterfaces01)	|
 |	|	|	|	|
