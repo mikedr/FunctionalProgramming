@@ -52,3 +52,4 @@ It's possible to perform a terminal operation without any intermediate operation
 | min()/max()	| Does not terminate	| Optional\<T\>	| Yes	| [min code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/streams/terminalOperations02)	|
 | findAny()/findFirst()	| Terminates	| Optional\<T\>	| No	| [findAny code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/streams/terminalOperations03)	|
 | allMatch()/anyMatch()/noneMatch()	| Sometimes terminates	| boolean	| No	| [anyMatch code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/streams/terminalOperations04)	|
+| forEach()	| Does not terminate	| void	| No	| [anyMatch code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/streams/terminalOperations05)	|
