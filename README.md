@@ -54,3 +54,4 @@ It's possible to perform a terminal operation without any intermediate operation
 | allMatch()/anyMatch()/noneMatch()	| Sometimes terminates	| boolean	| No	| [anyMatch code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/streams/terminalOperations04)	|
 | forEach()	| Does not terminate	| void	| No	| [anyMatch code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/streams/terminalOperations05)	|
 | reduce()	| Does not terminate	| Varies	| yes	| [reduce code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/streams/terminalOperations06)	|
+| collect()	| Does not terminate	| Varies	| yes	| 	|
