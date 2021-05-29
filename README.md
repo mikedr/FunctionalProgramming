@@ -53,4 +53,4 @@ It's possible to perform a terminal operation without any intermediate operation
 | findAny()/findFirst()	| Terminates	| Optional\<T\>	| No	| [findAny code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/streams/terminalOperations03)	|
 | allMatch()/anyMatch()/noneMatch()	| Sometimes terminates	| boolean	| No	| [anyMatch code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/streams/terminalOperations04)	|
 | forEach()	| Does not terminate	| void	| No	| [anyMatch code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/streams/terminalOperations05)	|
-| reduce()	| Does not terminate	| Varies	| yes	| 	|
+| reduce()	| Does not terminate	| Varies	| yes	| [reduce code](https://github.com/mikedr/FunctionalProgramming/tree/main/src/streams/terminalOperations06)	|
