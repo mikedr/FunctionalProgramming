@@ -3,7 +3,7 @@ package streams.terminalOperations06;
 import java.util.Arrays;
 import java.util.List;
 
-public class reduceExample {
+public class ReduceExample {
 
 	public static void main(String[] args) {
 		/*
